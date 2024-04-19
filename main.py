@@ -15,11 +15,6 @@ app = FastAPI()
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-#@app.on_event("startup")
-#async def init_tables():
-#    async with engine.begin() as conn:
-#        await conn.run_sync(Base.metadata.create_all)
-#if you don't want to work with sqlalchemy active this code
 
 
 app.include_router(user_router, prefix="/users", tags=["users"])
