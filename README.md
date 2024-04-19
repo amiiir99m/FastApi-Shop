@@ -12,6 +12,7 @@ What's happening:
   Observer:
     Can see all products (by title, by category, all, etc)  
     
-  I used PostgreSQL
+  I used PostgreSQL and alembic to manage migrations
   
-  Notice: don't run this on production. You need to change secret key in setting.py file adn etc for your own purposes.
+  Notice: don't run this on production. You need to change secret key in settings.py file and etc for your own purposes.
+  
