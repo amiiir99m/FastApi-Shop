@@ -10,7 +10,7 @@ from utils.jwt import JWTHandler
 router = APIRouter()
 
 
-@router.post("/create_category/")
+@router.post("/create_cart/")
 async def add_to_cart(
     db_session: Annotated[AsyncSession, Depends(get_db)],
     product_title:str = Body(),
