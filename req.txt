@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+passlib
+types-passlib
+bcrypt==4.0.1
+aiosqlite
+"python-jose[cryptography]"
+PyJWT
+SQLAlchemy
+python-multipart
+alembic
+asyncpg
+sqlmodel
+sqlalchemy_utils
